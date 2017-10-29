@@ -1,0 +1,27 @@
+<div class="container">
+  <header class="major">
+    <h2>Tell us your IT Problem</h2>
+  </header>
+  <form id="formaction" method="post">  
+    <div class="row uniform">
+      <div class="6u 12u$(xsmall)">
+        <input type="text" name="name" id="name" required="required" placeholder="Name" />
+      </div>
+      <div class="6u$ 12u$(xsmall)">
+        <input type="email" name="email" id="email" required="required" placeholder="Your Email" />
+      </div>
+      <div class="12u$">
+        <textarea name="message" id="message" required="required" placeholder="Your Message" rows="4"></textarea>
+        <input type="text" name="_gotcha" style="display:none" />
+        <input type="hidden" name="_next" value="thanks" />
+      </div>
+      <div class="12u$">
+        <ul class="actions">
+          <li>
+            <input type="submit" value="send message" class="special" />
+          </li>
+        </ul>
+      </div>
+    </div>
+  </form>
+</div>
