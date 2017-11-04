@@ -1,6 +1,6 @@
 # Clone the repository
 	cd ~/git
-	git clone https://github.com/sugizo/cactus_build
+	git clone https://github.com/sugizo/cactus-build
 
 # Create File
 	cd cactus
